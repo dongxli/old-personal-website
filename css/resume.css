@@ -1,0 +1,47 @@
+/* resume block */
+.resume{
+	margin: 50px auto 50px auto;	
+	width: 70%;
+}
+
+/* my name */
+#resume-name h1{
+	text-align: center;
+	color: rgb(54,96,145);
+	font-size: 45px;
+}
+
+/* line break */
+.line{
+	width:100%;
+	height:2px;
+	background-color: black;
+}
+
+/* top/subject text */
+.col-md-3 h1{	
+	padding-top:15px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: rgb(70, 136, 244)
+}
+
+/* content text */
+.col-md-12 p{
+	padding-bottom:0;
+	margin:0;
+}
+
+/* sub-topic */
+.col-md-6 p{
+	color: black;
+	font-weight: bold;
+}
+
+/* time-interval */
+.time-interval p{
+	color: black;
+	font-weight: bold;
+	text-align:right;
+}
+
