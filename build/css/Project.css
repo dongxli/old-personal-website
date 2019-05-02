@@ -1,0 +1,22 @@
+#project {
+  background-color: #ebeeee;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#project h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #879999;
+}
+
+#project .row {
+  margin: 50px 15%;
+}
+
+#project .project_image {
+  width: 80%;
+}

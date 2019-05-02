@@ -1,0 +1,75 @@
+#resume {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+#resume .category {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#resume .resume_category {
+  border-bottom: 3px solid #11abb0;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+}
+
+#resume h2 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#resume h6 {
+  text-align: left;
+  font-size: 20px;
+  font-style: italic;
+  color: #6e7881;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#resume p {
+  color: #838c95;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+
+#resume .skill {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+#resume .skill_bar {
+  width: 80%;
+  background: #ccc;
+  list-style: none;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+#resume .skill_bar_coloring {
+  background-color: #313131;
+  text-align: left;
+  height: 100%;
+  margin: 0 0;
+  padding: 0 0;
+  border-radius: 6px 0 0 6px;
+}
+
+#resume .skill h5 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#resume .additionalRow {
+  margin-top: 60px;
+}

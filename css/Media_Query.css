@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1500px) {
+  header .banner-text h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    max-width: 200px;
+  }
+  .navbar-collapse {
+    background-color: #1f2024;
+    z-index: 100;
+  }
+  header .banner-text h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header .banner {
+    width: 80%;
+  }
+
+  header .banner-text h1 {
+    font-size: 40px;
+  }
+
+  /* about section */
+  #about h2 {
+    margin: 0 auto 20px auto;
+  }
+
+  #about p,
+  #about h5 {
+    text-align: center;
+  }
+
+  /* resume section */
+  #project .project_image {
+    width: 100%;
+  }
+
+  #project .row {
+    margin: 0 15%;
+  }
+}
