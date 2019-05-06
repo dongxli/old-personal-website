@@ -26,6 +26,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 1. In the project folder, run `npm run build`
 
-2. In the project folder, run `mv -v ./build/* ../`. It moves the static files to the main directory for github pages.
+2. Delete all static files in the main directory. So we can replace new static files by step 1.
 
-3. In the project folder, run `rm -rf build`. It deletes the empty build folder.
+3. In the project folder, run `mv -v ./build/* ../`. It moves the static files to the main directory for github pages.
+
+4. In the project folder, run `rm -rf build`. It deletes the empty build folder.
