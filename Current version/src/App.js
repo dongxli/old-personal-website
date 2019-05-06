@@ -8,6 +8,8 @@ import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import data from "./data.json";
 
+// import "../node_modules/@fortawesome";
+
 class App extends Component {
   componentWillMount() {
     this.setState({ data: data });

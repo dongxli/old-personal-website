@@ -17,9 +17,9 @@ export default class Header extends Component {
     });
     return (
       <header>
-        <nav id="nav-wrap" class="navbar navbar-expand-lg navbar-light">
+        <nav id="nav-wrap" className="navbar navbar-expand-lg navbar-light">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -28,7 +28,7 @@ export default class Header extends Component {
             aria-label="Toggle navigation"
             style={{ outline: "none", border: "none" }}
           >
-            <i class="fas fa-bars" />
+            <i className="fas fa-bars" />
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">

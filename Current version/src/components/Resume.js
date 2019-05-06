@@ -7,7 +7,7 @@ export default class Resume extends Component {
       if (firstEducation) {
         firstEducation = false;
         return (
-          <div className="row">
+          <div key={education.school} className="row">
             <div className="col-md-4 mb-5 mb-md-0">
               <span className="resume_category">Education</span>
             </div>
@@ -22,7 +22,7 @@ export default class Resume extends Component {
         );
       }
       return (
-        <div className="row additionalRow">
+        <div key={education.school} className="row additionalRow">
           <div className="col-md-4 mb-5 mb-md-0">
             <span />
           </div>
@@ -42,7 +42,7 @@ export default class Resume extends Component {
       if (firstWork) {
         firstWork = false;
         return (
-          <div className="row">
+          <div key={work.company} className="row">
             <div className="col-md-4 mb-5 mb-md-0">
               <span className="resume_category">Work</span>
             </div>
@@ -57,7 +57,7 @@ export default class Resume extends Component {
         );
       }
       return (
-        <div className="row additionalRow">
+        <div key={work.company} className="row additionalRow">
           <div className="col-md-4 mb-5 mb-md-0">
             <span />
           </div>
@@ -74,7 +74,7 @@ export default class Resume extends Component {
 
     let skills = this.props.data.skills.map(function(skill) {
       return (
-        <div className="skill">
+        <div key={skill.name} className="skill">
           <h5>{skill.name}</h5>
           <li className="skill_bar">
             <div
