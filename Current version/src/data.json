@@ -4,7 +4,7 @@
     "occupation": "senior computer science student at CSULB",
     "description": "I like to put in the time to figure things out and learn interesting things!",
     "profile": "./images/profilepic.png",
-    "bio": "My name is Dongxuan Li. I'm 4th year student at California State University, Long Beach. My expected graduation date is Decemeber 2019. I'm looking for full time positions as a software engineer. I'm currently interested in data science!",
+    "bio": "My name is Dongxuan Li. I'm 4th year student at California State University, Long Beach. My expected graduation date is May 2020. I'm looking for full time positions as a software engineer. I'm currently interested in software development!",
     "contactmessage": "You can contact me through email.",
     "email": "lid52200@gmail.com",
     "social": [
@@ -25,15 +25,21 @@
       {
         "school": "California State University, Long Beach",
         "degree": "Bachelor of Science, Computer Science",
-        "years": "June 2015 - Decemeber 2019",
+        "years": "June 2015 - May 2020",
         "description": "Studied many fundamentals of computer science such as 'Object Oriented Programming','Database Fundamentals', 'Data Structures and Algorithms'. Applied learned concepts in higher level courses such as 'Artificial Intelligence' and 'Mobile Application Development' "
       }
     ],
     "work": [
       {
+        "company": "Cornerstone OnDemand",
+        "title": "Information Systems Intern",
+        "years": "January 2020 - Present",
+        "description": "Testing and validating for accuracy of data to assist the development of an ETL process. Developing reports and dashboards using Power BI to display critical business metrics"
+      },
+      {
         "company": "IBM",
         "title": "Software Developer Intern",
-        "years": "June 2018 - Janurary 2019",
+        "years": "June 2018 - August 2020",
         "description": "Responsible for the design and implementation of the internal analytical dashboard for test analysis, display of story points, and interpretation of the product release health. Involved in creating and enhancing test automations with Jenkins to increase efficiency of the testing process. Participated in scrum meetings within the team and sprints to deliver progress"
       }
     ],

@@ -42,15 +42,15 @@
 
 #resume .skill {
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 #resume .skill_bar {
   width: 80%;
   background: #ccc;
   list-style: none;
-  height: 50px;
-  margin-top: 20px;
+  height: 30px;
+  margin-top: 10px;
   border-radius: 6px;
 }
 
